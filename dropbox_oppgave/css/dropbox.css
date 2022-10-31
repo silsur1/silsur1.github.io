@@ -1,0 +1,50 @@
+div, header, nav, main{
+    border: 1px black solid;
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.box8{
+    align-self: center;
+    display: flex;
+    border: 0px ;
+    height: fit-content;
+    width: fit-content;
+}
+
+.header{
+    align-self: center;
+    height: 50px;
+    width: 710px;
+}
+
+.sidebox{
+    align-self: flex-start; 
+    height: 420px;
+    width: 100px;
+}
+
+.innholdsbox{
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.last_oppbox{
+    width: auto;
+    height: 40px;
+}
+
+.nav{
+    height: 50px;
+    width: auto;
+}
+
+.bildebox{
+    height: fit-content;
+    width: fit-content;
+}
