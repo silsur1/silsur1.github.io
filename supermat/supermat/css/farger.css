@@ -1,0 +1,19 @@
+div, footer, header, main{
+    /*border: solid black 1px;*/
+    margin: 5px;
+}
+
+
+header, footer{
+    background-color: salmon;
+    height: 75px;
+}
+
+footer{
+    height: fit-content;
+}
+
+header img{
+    max-width: 150px;
+    height: 75px;
+}
