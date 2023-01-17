@@ -1,0 +1,16 @@
+div{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#kalkulator{ 
+   border: solid black 1px; 
+   background-color: beige;
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-self: center;
+}
