@@ -23,7 +23,7 @@ function askWeather(){
         const weatherData = data;
         console.log(weatherData);
         for(let i = 0; i <= 5; i++){       
-            document.getElementById("tabelldata").innerHTML+="<tr><td>lufttrykket dag " + i + " er: " + weatherData.properties.timeseries[i].data.instant.details.air_pressure_at_sea_level + "</td><td>"+"lufttemperatur dag " + i + " er: " +weatherData.properties.timeseries[i].data.instant.details.air_temperature+"</td>"+ "<td>"+"lufthastigheten dag " + i + " er: " +weatherData.properties.timeseries[i].data.instant.details.wind_speed+"</td>" + '<td> <img src="images/png/'+weatherData.properties.timeseries[i].data.next_1_hours.summary.symbol_code+'.png" alt="'+weatherData.properties.timeseries[i].data.next_1_hours.summary.symbol_code+'"/></td> </tr>';
+            document.getElementById("tabelldata").innerHTML+="<tr><td>lufttrykket time " + i + " er: " + weatherData.properties.timeseries[i].data.instant.details.air_pressure_at_sea_level + "</td><td>"+"lufttemperatur time " + i + " er: " +weatherData.properties.timeseries[i].data.instant.details.air_temperature+"</td>"+ "<td>"+"lufthastigheten time " + i + " er: " +weatherData.properties.timeseries[i].data.instant.details.wind_speed+"</td>" + '<td> <img src="images/png/'+weatherData.properties.timeseries[i].data.next_1_hours.summary.symbol_code+'.png" alt="'+weatherData.properties.timeseries[i].data.next_1_hours.summary.symbol_code+'"/></td> </tr>';
             
         }
 
