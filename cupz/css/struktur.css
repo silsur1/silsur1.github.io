@@ -1,0 +1,33 @@
+body{
+    background-color: #A0B4F9;
+}
+
+main{
+    max-width: 1024px;
+    margin: auto;
+}
+
+div, main, header, nav, article, footer{
+    border: 1px solid #414F7F;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    background-color: #414F7F;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo, #cupz, #handlevogn, p, a{
+    color: white;
+}
+
+#logo img{
+    width: 50px;
+    height: 20px;
+}
+
+img{
+    max-width: 200px;
+}

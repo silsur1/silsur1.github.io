@@ -1,0 +1,68 @@
+button, input{
+ width: 100px;
+ height: 40px;
+ border-radius: 20px;
+ border: solid #414F7F;
+ background-color: lime;
+ color: white;
+ padding: 10px;
+ margin-top: 10px;
+}
+  
+select{
+  width: 75px;
+  height: 40px;
+  border-radius: 20px;
+  border: solid #414F7F;
+  background-color: lime;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+  
+select, input, option{
+  background-color: #414F7F;
+  color: white;
+}
+  
+label{
+  color: white;
+}
+  
+article{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: auto;
+  background-color: #A0B4F9;
+}
+
+#handlevogn{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  background-color: #414F7F;
+}
+
+#handlevogn div{
+  background-color: #A0B4F9;
+  width: fit-content;
+  align-self: center;
+}
+
+#hoved_boks{
+  display: flex;
+  flex-direction: row;
+}
+
+#side_boks{
+  width: 350px;
+  height: auto;
+  background-color: #414F7F;
+  text-align: center;
+}
+
+#kjøp_knapp{
+  align-self: center;
+}

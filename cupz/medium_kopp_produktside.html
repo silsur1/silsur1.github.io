@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/struktur.css">
+    <link rel="stylesheet" href="css/medium_kopp_produktside.css">
+    <title>Cupz</title>
+</head>
+<body>
+    <main>
+        <header id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/cupz_logo.png" alt="tre kopper"></a>
+            </div> <!--slutt logo-->
+
+            <div id="cupz">cupz</div> <!--slutt cupz-->
+            <div></div>              
+        </header> <!--slutt header-->
+        
+        <article>
+            <div id="bilde_boks">
+                <img src="images/white_cup.png" alt="kopp" id="cup_image">
+            </div> <!--slutt bilde_boks-->
+
+            <div id="info_boks">
+                <div id="tekst">
+                    <p>medium kopp pris: 200kr</p>
+                </div> <!--slutt tekst-->
+
+                <div class="farge_boks">
+                    <form action="#" method="get" onchange="cup_color()">
+                        <label for="farge">velg en farge:</label>
+                        <select name="farge" id="kopp_farge">
+                          <option value="hvit">hvit</option>
+                          <option value="svart">svart</option>
+                          <option value="blå">blå</option>
+                        </select>
+                        <!--<br><br>
+                        <input type="submit" value="submit">-->
+                      </form>
+                      
+                </div> <!--slutt farge_boks-->
+
+                <div id="kjøp_knapp">
+                    <a href="medium_kopp_handlevogn.html"><button>kjøp</button></a>
+                </div><!--slutt kjøp_knapp-->
+            </div> <!--slutt info_boks-->
+
+        </article> <!--slutt article-->
+
+    </main> <!--slutt main-->
+
+</body>
+<script src="js/medium_kopp_produktside.js"></script>
+</html>

@@ -1,0 +1,28 @@
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#medium_kopp_bilde img{
+    max-width: 150px;
+}
+
+#stor_kopp_bilde img{
+    max-width: 200px; 
+}
+
+#medium_kopp, #stor_kopp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+#medium_kopp_info, #stor_kopp_info{
+    display: flex;
+    background-color: #414F7F;
+    align-self: center;
+}

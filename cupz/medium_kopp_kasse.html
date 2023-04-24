@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/struktur.css">
+    <link rel="stylesheet" href="css/medium_kopp_kasse.css">
+    <title>Cupz</title>
+</head>
+<body>
+    <main>
+        <header id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/cupz_logo.png" alt="tre kopper"></a>
+            </div> <!--slutt logo-->
+
+            <div id="cupz">cupz</div> <!--slutt cupz-->
+            <div></div>             
+        </header> <!--slutt header-->
+
+        <article>
+
+            <div id="handlevogn">
+                <form action="#" method="get">
+                    <label for="epost">epost:</label>
+                    <input type="text" id="epost">
+            
+                    <label for="mobilnummer">mobilnummer:</label>
+                    <input type="tel" id="mobilnummer">
+            
+                    <label for="navn">for-og etternavn:</label>
+                    <input type="tel" id="navn">
+                       
+                    <input type="submit" id="submit_button">
+                </form> 
+            </div> <!--slutt handlevogn-->
+
+
+                <div id="side_boks">
+                    <div id="bilde_boks">
+                        <img src="images/white_cup.png" alt="kopp" id="cup_image">
+                    </div> <!--slutt bilde_boks-->
+    
+                    <div id="info_boks">
+                        <div id="tekst">
+                            <p>medium kopp pris: 200kr</p>
+                        </div> <!--slutt tekst-->
+    
+                        <div class="farge_boks">
+                            <form action="#" method="get" onchange="cup_color()">
+                                <label for="farge">velg en farge:</label>
+                                <select name="farge" id="kopp_farge">
+                                <option value="hvit">hvit</option>
+                                <option value="svart">svart</option>
+                                <option value="blå">blå</option>
+                                </select>
+                                <!--<br><br>
+                                <input type="submit" value="submit">-->
+                            </form>
+                            
+                        </div> <!--slutt farge_boks-->
+                    </div> <!--slutt info_boks-->
+                    <p>total 200kr</p>
+
+                    <div id="kjøp_knapp">
+                        <a href="medium_kopp_kasse.html"><button id="vipps_knapp">vipps</button></a>
+                    </div><!--slutt kjøp_knapp-->
+                </div> <!--slut side_boks-->
+
+        </article> <!--slutt article-->
+
+    </main> <!--slutt main-->
+
+</body>
+<script src="js/medium_kopp_produktside.js"></script>
+</html>
